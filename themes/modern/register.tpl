@@ -17,18 +17,18 @@
 				</div>
 				<div class="form-group col-lg-6 <!-- IF MISSING1 eq 1 -->has-error<!-- ENDIF -->">
 					<label for="TPL_nick">{L_username} *</label>
-					<input type="text" name="TPL_nick" class="form-control"  value="{V_UNAME}" <!-- IF MISSING1 eq 1 -->id="inputError1"<!-- ENDIF --> placeholder="{L_050}">
+					<input type="text" pattern="^[0-9A-Za-z]+$" name="TPL_nick" class="form-control"  value="{V_UNAME}" <!-- IF MISSING1 eq 1 -->id="inputError1"<!-- ENDIF --> placeholder="{L_050}">
 					<!-- IF MISSING1 eq 1 --><div class="error-box missing">{L_938}</div><!-- ENDIF -->
 				</div>
 				<div class="col-lg-12"></div>
 				<div class="form-group col-lg-6 <!-- IF MISSING2 eq 1 -->has-error<!-- ENDIF -->">
 					<label for="TPL_password">{L_password} *</label>
-					<input type="password" name="TPL_password" class="form-control" <!-- IF MISSING2 eq 1 -->id="inputError1"<!-- ENDIF --> placeholder="{L_050}">
+					<input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="TPL_password" class="form-control" <!-- IF MISSING2 eq 1 -->id="inputError1"<!-- ENDIF --> placeholder="{L_050}">
 					<!-- IF MISSING2 eq 1 --><div class="error-box missing">{L_939}</div><!-- ENDIF -->
 				</div>
 				<div class="form-group col-lg-6 <!-- IF MISSING3 eq 1 -->has-error<!-- ENDIF -->">
 					<label for="TPL_repeat_password">{L_005} *</label>
-					<input type="password" name="TPL_repeat_password" class="form-control" <!-- IF MISSING3 eq 1 -->id="inputError1"<!-- ENDIF -->>
+					<input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="TPL_repeat_password" class="form-control" <!-- IF MISSING3 eq 1 -->id="inputError1"<!-- ENDIF -->>
 					<!-- IF MISSING3 eq 1 --><div class="error-box missing">{L_940}</div><!-- ENDIF -->
 				</div>
 				<div class="col-lg-12"></div>

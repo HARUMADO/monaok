@@ -120,10 +120,10 @@ $(document).ready(function() {
 							<td align="left">{QTY}</td>
 						</tr>
 <!-- ENDIF -->
-						<tr>
+						<!-- <tr>
 							<td width="30%" align="left">{L_923}: </td>
 							<td align="left">{COUNTRY}</td>
-						</tr>
+						</tr> -->
 						<tr>
 							<td width="30%" align="left">{L_118}: </td>
 							<td align="left" valign="top">
