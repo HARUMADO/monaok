@@ -49,7 +49,7 @@
 				<div class="col-lg-12"></div>
 	<!-- IF ADDRESS -->
 				<div class="form-group col-lg-6 <!-- IF MISSING6 eq 1 -->has-error<!-- ENDIF -->">
-					<label for="TPL_address">{L_009}{REQUIRED(1)}</label>
+					<label for="TPL_address">{L_monacoin}{REQUIRED(1)}</label>
 					<input type="text" name="TPL_address" class="form-control" value="{V_ADDRE}" <!-- IF MISSING6 eq 1 -->id="inputError1"<!-- ENDIF -->>
 					<!-- IF MISSING6 eq 1 --><div class="error-box missing">{L_942}</div><!-- ENDIF -->
 				</div>

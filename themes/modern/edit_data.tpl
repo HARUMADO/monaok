@@ -27,7 +27,7 @@
 				</fieldset>
 			</div>
 			<div class="form-group col-lg-6">
-				<label for="TPL_address">{L_009}</label>
+				<label for="TPL_address">{L_monacoin}</label>
 				<input type="text" name="TPL_address" class="form-control" value="{ADDRESS}">
 			</div>
 			<div class="form-group col-lg-6">

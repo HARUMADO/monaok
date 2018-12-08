@@ -18,7 +18,7 @@
 				<h4><span style="margin-right: 10px;" class="glyphicon glyphicon-user" aria-hidden="true"></span>{USER} ({SUM_FB}) <!-- IF FB_ICON ne '' --><img src="{SITEURL}images/icons/{FB_ICON}" alt="{FB_ICON}" class="fbstar"><!-- ENDIF --></h4><br>
 				<ul class="list-unstyled">
 					<li>{L_209} <b>{REGSINCE}</b><br></li>
-					<li>{L_240} <b>{ADDRESS}</b><br></li>
+					<li>{L_monacoin} <a href="monacoin:{ADDRESS}"><b>{ADDRESS}</b></a><br></li>
 					<li>{L_502} <b>{NUM_FB}</b><br></li>
 					<li>{FB_POS}</li>
 					<li>{FB_NEUT}</li>
