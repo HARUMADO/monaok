@@ -644,7 +644,7 @@ $MSG['842'] = '手数料設定';
 $MSG['845'] = '<p><img src="' . $system->SETTINGS['siteurl'] . 'themes/' . $system->SETTINGS['admin_theme'] . '/images/bullet_blue.png"> 子カテゴリを含むカテゴリを表示します。</p><p><img src="' . $system->SETTINGS['siteurl'] . 'themes/' . $system->SETTINGS['admin_theme'] . '/images/bullet_red.png"> オークションを含むカテゴリを表示します</p>';
 $MSG['846'] = 'アカウント残高';
 $MSG['847'] = '価格';
-$MSG['853'] = '現在商品を見ていません';
+$MSG['853'] = 'ウォッチリストに追加している商品がありません';
 $MSG['854'] = 'アカウント';
 $MSG['855'] = '表示選択';
 $MSG['856'] = '機関の選択';
