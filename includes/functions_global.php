@@ -197,7 +197,8 @@ class global_class
         $config = array('elements' => '-*');
 
         if ($allow_html) {
-            $config = array('safe' => 1, 'elements' => 'a, ol, ul, li, u, strong, em, br, p', 'deny_attribute' => '* -href');
+            //$config = array('safe' => 1, 'elements' => 'a, ol, ul, li, u, strong, em, br, p', 'deny_attribute' => '* -href');
+            $config = array('safe' => 1, 'elements' => 'a, ol, ul, li, u, hr, s, span, sub, sup, div, strong, style, em, img, oembed, iframe, br, h1, h2, h3, h4, h5, h6, p, table, tbody, tr, td, thead', 'deny_attribute' => '*href, style');
         }
 
         return str_replace(array('&lt;', '&gt;', '&amp;'), array('<', '>', '&'), htmLawed($input, $config));
